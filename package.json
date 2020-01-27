@@ -1,0 +1,16 @@
+{
+  "name": "babel_quickgo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+	"transpile": "npx babel input.js --out-file output.js --presets=@babel/preset-env"
+  },
+  "author": "Sam Lynch",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5"
+  }
+}
